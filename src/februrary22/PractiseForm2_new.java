@@ -47,7 +47,7 @@ public class PractiseForm2_new {
 			
 			if ((tool.getAttribute("value").contains("Selenium Webdriver"))){
 				
-				tool.click();
+				fool.click();
 			}
 			
 		}

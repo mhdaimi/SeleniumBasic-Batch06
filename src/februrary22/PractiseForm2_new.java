@@ -41,7 +41,7 @@ public class PractiseForm2_new {
 		}
 		
 		
-		List<WebElement> tools = driver.findElements(By.name("tool"));
+		System.out.println();
 		
 		for (WebElement tool : tools) {
 			

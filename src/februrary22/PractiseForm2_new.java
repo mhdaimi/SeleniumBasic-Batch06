@@ -41,13 +41,13 @@ public class PractiseForm2_new {
 		}
 		
 		
-		List<WebElement> tools = driver.findElements(By.name("tool"));
+		System.out.println();
 		
 		for (WebElement tool : tools) {
 			
 			if ((tool.getAttribute("value").contains("Selenium Webdriver"))){
 				
-				tool.click();
+				fool.click();
 			}
 			
 		}
